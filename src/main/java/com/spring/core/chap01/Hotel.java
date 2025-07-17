@@ -1,22 +1,22 @@
-package com.spring.chap01;
-
-import com.spring.core.chap01.KimuraChef;
+package com.spring.core.chap01;
 
 // 호텔 설계도
 public class Hotel {
 
     // 레스토랑 입점
-    private Restaurant restaurant;
+    private final Restaurant restaurant;
 
     // 헤드셰프 고용
-    private Chef headChef;
+    private final Chef headChef;
 
-    // 생성자
+//     생성자   IOC 개념 - 의존성 주입
     public Hotel(Restaurant restaurant,Chef chef) {
         this.restaurant = restaurant;
         this.headChef = chef;
     }
 
+//    public void setRestaurant(Restaurant restaurant) {}
+//    public void setHeadChef(Chef chef) {}
 
     // 레스토랑 예약 기능
     public  void reserve(){

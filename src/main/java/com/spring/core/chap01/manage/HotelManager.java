@@ -1,7 +1,6 @@
 package com.spring.core.chap01.manage;
 
-import com.spring.chap01.*;
-import com.spring.core.chap01.KimuraChef;
+import com.spring.core.chap01.*;
 
 
 // 호텔의 레스토랑 입점과 헤드쉐프 고용은 내가 다 책임지고 하겠다.

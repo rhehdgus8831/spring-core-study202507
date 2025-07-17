@@ -1,4 +1,4 @@
-package com.spring.chap01;
+package com.spring.core.chap01;
 
 // 서양식 레스토랑
 public class WesternRestaurant implements Restaurant{

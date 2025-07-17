@@ -1,4 +1,4 @@
-package com.spring.chap01;
+package com.spring.core.chap01;
 
 public interface Chef {
 

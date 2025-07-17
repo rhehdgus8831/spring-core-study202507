@@ -1,6 +1,4 @@
-package com.spring.chap01;
-
-import com.spring.core.chap01.KimuraChef;
+package com.spring.core.chap01;
 
 public class AsianRestaurant implements Restaurant{
 

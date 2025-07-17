@@ -1,7 +1,5 @@
 package com.spring.core.chap01;
 
-import com.spring.chap01.Chef;
-
 public class KimuraChef implements Chef {
     @Override
     public void cook() {
