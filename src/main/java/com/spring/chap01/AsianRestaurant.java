@@ -11,9 +11,9 @@ public class AsianRestaurant implements Restaurant{
 
 
     // 생성자
-    public AsianRestaurant() {
-        this.mainChef = new KimuraChef();
-        this.course = new SushiCourse();
+    public AsianRestaurant(Chef chef, Course course) {
+        this.mainChef = chef;
+        this.course = course;
     }
 
     @Override
